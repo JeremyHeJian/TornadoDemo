@@ -6,6 +6,10 @@ public class playerControl : MonoBehaviour
 {
     public float speed = 10.0f;
     public float jumpheight = 1.0f;
+    public GameObject tornadoEffect;
+
+    private float score = 0;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -28,7 +32,10 @@ public class playerControl : MonoBehaviour
         if(other.tag == "Building")
         {
             Debug.Log("Triggered by Building");
+            GameObject fx = Instantiate(tornadoEffect, transform.position, Quaternion.identity);
             Destroy(other.gameObject, 2);
+            score++;
+            Debug.Log("score: " + score);
         }
         
     }
