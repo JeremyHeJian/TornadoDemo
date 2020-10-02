@@ -761,6 +761,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   jumpheight: 10
+  tornadoEffect: {fileID: 3040331257274560493, guid: cfba2b19784be4b3ab45f4bedda2c51c,
+    type: 3}
 --- !u!54 &1093928527
 Rigidbody:
   m_ObjectHideFlags: 0
