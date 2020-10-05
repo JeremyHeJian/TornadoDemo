@@ -14,6 +14,9 @@ public class LookAt : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        this.transform.position = lookAt.transform.position;
+        if(lookAt != null)
+        {
+            this.transform.position = lookAt.transform.position;
+        }
     }
 }
