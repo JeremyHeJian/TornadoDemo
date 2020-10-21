@@ -5,11 +5,13 @@ using UnityEngine;
 public class playerControl : Units
 {
     //original
+    public GameObject UIcontrol;
+    private UIcontrol UIControlScript;
+
     public float speed = 10.0f;
     public float jumpheight = 1.0f;
     //Tornado effects added.
     public GameObject tornadoEffect;
-    private float score = 0;
     //Child objects of Player
     public GameObject tornadOff;
     public GameObject tornadOn;
@@ -21,6 +23,7 @@ public class playerControl : Units
     void Start()
     {
         audioSoure = GetComponent<AudioSource>();
+        UIControlScript = UIcontrol.GetComponent<UIcontrol>();
     }
 
     // Update is called once per frame
@@ -67,9 +70,8 @@ public class playerControl : Units
                 other.GetComponent<Units>().ApplyDamage(30);
                 audioSoure.Play();
                 //Tornado effect and score
+                UIControlScript.UpdateScore();
                 GameObject fx = Instantiate(tornadoEffect, transform.position, Quaternion.identity);
-                score++;
-                Debug.Log("score: " + score);
                 Destroy(fx, 2);
             }
         }
