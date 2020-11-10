@@ -14,4 +14,19 @@ public class LevelLoader : MonoBehaviour
         SceneManager.LoadScene(scene.name);
         Time.timeScale = 1;
     }
+
+    public void Play()
+    {
+        SceneManager.LoadScene(1);
+    }
+
+    public void HowToPlay()
+    {
+        SceneManager.LoadScene("HowToPlay");
+    }
+
+    public void MainMenu()
+    {
+        SceneManager.LoadScene("Main Menu");
+    }
 }
