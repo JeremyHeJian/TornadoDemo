@@ -155,7 +155,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -318.85, y: -91.4}
+  m_AnchoredPosition: {x: -318.8496, y: -91.40039}
   m_SizeDelta: {x: 637.7, y: 182.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &20905111
@@ -607,6 +607,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 100
   shield: 100
+  ruinSize: 0.3
   deathEffect: {fileID: 0}
 --- !u!1 &285663434
 GameObject:
@@ -886,6 +887,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 100
   shield: 100
+  ruinSize: 0.3
   deathEffect: {fileID: 0}
 --- !u!1 &701451752
 GameObject:
@@ -10982,6 +10984,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 100
   shield: 100
+  ruinSize: 0.3
   deathEffect: {fileID: 0}
 --- !u!1 &1093928524
 GameObject:
@@ -11035,6 +11038,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 100
   shield: 100
+  ruinSize: 30
   deathEffect: {fileID: 0}
   UIcontrol: {fileID: 1110841437}
   speed: 10
@@ -11573,6 +11577,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 100
   shield: 100
+  ruinSize: 0.3
   deathEffect: {fileID: 0}
 --- !u!1 &1384056905
 GameObject:
@@ -12039,6 +12044,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 100
   shield: 100
+  ruinSize: 0.3
   deathEffect: {fileID: 0}
 --- !u!1 &1567883090
 GameObject:
@@ -12104,7 +12110,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 318.84998, y: -91.4}
+  m_AnchoredPosition: {x: 318.8496, y: -91.40039}
   m_SizeDelta: {x: 637.69995, y: 182.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1570970542
@@ -12255,6 +12261,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 100
   shield: 100
+  ruinSize: 0.3
   deathEffect: {fileID: 0}
 --- !u!1 &1804952720
 GameObject:
@@ -12364,6 +12371,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 100
   shield: 100
+  ruinSize: 0.3
   deathEffect: {fileID: 0}
 --- !u!1 &1885486757
 GameObject:

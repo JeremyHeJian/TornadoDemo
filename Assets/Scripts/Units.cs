@@ -10,16 +10,19 @@ public class Units : MonoBehaviour
      */
     public int health = 100;
     public int shield = 100;
+    public float ruinSize = 0.3f;
+
     public GameObject deathEffect;
 
     public void ApplyDamage(int damage)
     {
         if(health > damage)
         {
-            health = health - damage;
+            health -= damage;
         }
         else
         {
+            health -= damage;
             Destruct();
         }
     }
@@ -30,6 +33,6 @@ public class Units : MonoBehaviour
         {
             Instantiate(deathEffect, transform.position, transform.rotation);
         }
-        Destroy(gameObject);
+        Destroy(gameObject, 0.1f);
     }
 }

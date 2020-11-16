@@ -68,12 +68,20 @@ public class playerControl : Units
             if (tornadoPower >= other.GetComponent<Units>().shield)
             {
                 other.GetComponent<Units>().ApplyDamage(30);
+                if (other.GetComponent<Units>().health <= 0)
+                {
+                    //Score when building is destroyed.
+                    UIControlScript.UpdateScore();
+                    //Incresing tornado size when destroy buildings.
+                    transform.localScale = transform.localScale + new Vector3(other.GetComponent<Units>().ruinSize, other.GetComponent<Units>().ruinSize, other.GetComponent<Units>().ruinSize);
+                }
                 audioSoure.Play();
                 //Tornado effect and score
-                UIControlScript.UpdateScore();
+                //UIControlScript.UpdateScore();
                 GameObject fx = Instantiate(tornadoEffect, transform.position, Quaternion.identity);
                 Destroy(fx, 2);
             }
+            
         }
     }
 }
