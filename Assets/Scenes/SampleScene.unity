@@ -155,7 +155,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -318.8496, y: -91.40039}
+  m_AnchoredPosition: {x: -239, y: -103}
   m_SizeDelta: {x: 637.7, y: 182.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &20905111
@@ -173,6 +173,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 1, b: 0.8414297, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -183,7 +184,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 209
-    m_Alignment: 0
+    m_Alignment: 2
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -319,6 +320,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -608,7 +610,8 @@ MonoBehaviour:
   health: 100
   shield: 100
   ruinSize: 0.3
-  deathEffect: {fileID: 0}
+  deathEffect: {fileID: 3040331257274560493, guid: cfba2b19784be4b3ab45f4bedda2c51c,
+    type: 3}
 --- !u!1 &285663434
 GameObject:
   m_ObjectHideFlags: 0
@@ -754,6 +757,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 1, b: 0.8414297, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -888,7 +892,8 @@ MonoBehaviour:
   health: 100
   shield: 100
   ruinSize: 0.3
-  deathEffect: {fileID: 0}
+  deathEffect: {fileID: 3040331257274560493, guid: cfba2b19784be4b3ab45f4bedda2c51c,
+    type: 3}
 --- !u!1 &701451752
 GameObject:
   m_ObjectHideFlags: 0
@@ -1161,6 +1166,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 1, b: 0.8414297, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -10851,6 +10857,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0, b: 0.6190028, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -10985,7 +10992,8 @@ MonoBehaviour:
   health: 100
   shield: 100
   ruinSize: 0.3
-  deathEffect: {fileID: 0}
+  deathEffect: {fileID: 3040331257274560493, guid: cfba2b19784be4b3ab45f4bedda2c51c,
+    type: 3}
 --- !u!1 &1093928524
 GameObject:
   m_ObjectHideFlags: 0
@@ -11348,6 +11356,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 1, b: 0.8414297, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -11452,6 +11461,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 1, b: 0.8414297, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -11578,7 +11588,8 @@ MonoBehaviour:
   health: 100
   shield: 100
   ruinSize: 0.3
-  deathEffect: {fileID: 0}
+  deathEffect: {fileID: 3040331257274560493, guid: cfba2b19784be4b3ab45f4bedda2c51c,
+    type: 3}
 --- !u!1 &1384056905
 GameObject:
   m_ObjectHideFlags: 0
@@ -11688,6 +11699,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -11810,6 +11822,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -12045,7 +12058,8 @@ MonoBehaviour:
   health: 100
   shield: 100
   ruinSize: 0.3
-  deathEffect: {fileID: 0}
+  deathEffect: {fileID: 3040331257274560493, guid: cfba2b19784be4b3ab45f4bedda2c51c,
+    type: 3}
 --- !u!1 &1567883090
 GameObject:
   m_ObjectHideFlags: 0
@@ -12110,7 +12124,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 318.8496, y: -91.40039}
+  m_AnchoredPosition: {x: 238, y: -98}
   m_SizeDelta: {x: 637.69995, y: 182.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1570970542
@@ -12128,6 +12142,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 1, b: 0.8414297, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -12262,7 +12277,8 @@ MonoBehaviour:
   health: 100
   shield: 100
   ruinSize: 0.3
-  deathEffect: {fileID: 0}
+  deathEffect: {fileID: 3040331257274560493, guid: cfba2b19784be4b3ab45f4bedda2c51c,
+    type: 3}
 --- !u!1 &1804952720
 GameObject:
   m_ObjectHideFlags: 0
@@ -12372,7 +12388,8 @@ MonoBehaviour:
   health: 100
   shield: 100
   ruinSize: 0.3
-  deathEffect: {fileID: 0}
+  deathEffect: {fileID: 3040331257274560493, guid: cfba2b19784be4b3ab45f4bedda2c51c,
+    type: 3}
 --- !u!1 &1885486757
 GameObject:
   m_ObjectHideFlags: 0
@@ -12425,6 +12442,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []

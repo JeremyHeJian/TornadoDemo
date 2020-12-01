@@ -17,14 +17,17 @@ public class UIcontrol : MonoBehaviour
     void Start()
     {
         Time.timeScale = 1;
-        timeText.text = time.ToString();
+        //timeText.text = time.ToString("F2");
+        timeText.text = Mathf.Round(time).ToString();
         scoreText.text = score.ToString();
     }
 
     void Update()
     {
         time -= Time.deltaTime;
-        timeText.text = time.ToString();
+        //timeText.text = time.ToString();
+        timeText.text = Mathf.Round(time).ToString();
+
 
         if (time <= 0)
         {
