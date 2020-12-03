@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Fire
   - Building
+  - AudioPlayer
   layers:
   - Default
   - TransparentFX

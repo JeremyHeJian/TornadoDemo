@@ -31,7 +31,9 @@ public class Units : MonoBehaviour
     {
         if(deathEffect != null)
         {
-            Instantiate(deathEffect, transform.position, transform.rotation);
+            Vector3 deathPos = transform.position;
+            deathPos.y = 0f;
+            Instantiate(deathEffect, deathPos, transform.rotation);
         }
         Destroy(gameObject, 0.1f);
     }

@@ -607,10 +607,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be2bb1cb0c78b4f42810785337e9c125, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
+  health: 30
   shield: 100
   ruinSize: 0.3
-  deathEffect: {fileID: 3040331257274560493, guid: cfba2b19784be4b3ab45f4bedda2c51c,
+  deathEffect: {fileID: 1278830948007620, guid: feb11bdd0b967f54eb0e5d88798fd7b2,
     type: 3}
 --- !u!1 &285663434
 GameObject:
@@ -889,10 +889,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be2bb1cb0c78b4f42810785337e9c125, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
+  health: 25
   shield: 100
   ruinSize: 0.3
-  deathEffect: {fileID: 3040331257274560493, guid: cfba2b19784be4b3ab45f4bedda2c51c,
+  deathEffect: {fileID: 1278830948007620, guid: feb11bdd0b967f54eb0e5d88798fd7b2,
     type: 3}
 --- !u!1 &701451752
 GameObject:
@@ -10989,10 +10989,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be2bb1cb0c78b4f42810785337e9c125, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
+  health: 25
   shield: 100
   ruinSize: 0.3
-  deathEffect: {fileID: 3040331257274560493, guid: cfba2b19784be4b3ab45f4bedda2c51c,
+  deathEffect: {fileID: 1278830948007620, guid: feb11bdd0b967f54eb0e5d88798fd7b2,
     type: 3}
 --- !u!1 &1093928524
 GameObject:
@@ -11212,7 +11212,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreText: {fileID: 20905111}
   timeText: {fileID: 1570970542}
-  time: 30
+  time: 15
   gameoverUI: {fileID: 923533153}
   gameoverCurScore: {fileID: 1235227644}
   gameoverHighScore: {fileID: 1220611425}
@@ -11585,10 +11585,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be2bb1cb0c78b4f42810785337e9c125, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
+  health: 60
   shield: 100
   ruinSize: 0.3
-  deathEffect: {fileID: 3040331257274560493, guid: cfba2b19784be4b3ab45f4bedda2c51c,
+  deathEffect: {fileID: 1278830948007620, guid: feb11bdd0b967f54eb0e5d88798fd7b2,
     type: 3}
 --- !u!1 &1384056905
 GameObject:
@@ -12055,10 +12055,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be2bb1cb0c78b4f42810785337e9c125, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
+  health: 50
   shield: 100
   ruinSize: 0.3
-  deathEffect: {fileID: 3040331257274560493, guid: cfba2b19784be4b3ab45f4bedda2c51c,
+  deathEffect: {fileID: 1278830948007620, guid: feb11bdd0b967f54eb0e5d88798fd7b2,
     type: 3}
 --- !u!1 &1567883090
 GameObject:
@@ -12274,10 +12274,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be2bb1cb0c78b4f42810785337e9c125, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
+  health: 25
   shield: 100
   ruinSize: 0.3
-  deathEffect: {fileID: 3040331257274560493, guid: cfba2b19784be4b3ab45f4bedda2c51c,
+  deathEffect: {fileID: 1278830948007620, guid: feb11bdd0b967f54eb0e5d88798fd7b2,
     type: 3}
 --- !u!1 &1804952720
 GameObject:
@@ -12385,10 +12385,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be2bb1cb0c78b4f42810785337e9c125, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
+  health: 50
   shield: 100
   ruinSize: 0.3
-  deathEffect: {fileID: 3040331257274560493, guid: cfba2b19784be4b3ab45f4bedda2c51c,
+  deathEffect: {fileID: 1278830948007620, guid: feb11bdd0b967f54eb0e5d88798fd7b2,
     type: 3}
 --- !u!1 &1885486757
 GameObject:
